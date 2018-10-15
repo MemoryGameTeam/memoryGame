@@ -6,9 +6,9 @@ box-sizing: border-box;
 }
 
  body{
-  font-family: 'Roboto Slab', serif;
+  font-family: 'arial';
   font-weight: lighter;
-  background:rgb(235, 220, 216);
+  background:#DDD;
 }
 
 
