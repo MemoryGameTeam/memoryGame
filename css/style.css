@@ -17,6 +17,7 @@ box-sizing: border-box;
     max-width: 1170;
     margin: 0 auto;
     display: flex;
+ flex-direction:column
 }
 
 .game{
@@ -36,7 +37,3 @@ margin: 0 auto;
 border: 2px black solid;
 }
 
-.features{
-    width:100%;
-    display: flex;
-}
