@@ -5,6 +5,12 @@ width: 100%;
 box-sizing: border-box;
 }
 
+ body{
+  font-family: 'Roboto Slab', serif;
+  font-weight: lighter;
+  background:#DDD;
+}
+
 
 #container{
     width: 75%;
