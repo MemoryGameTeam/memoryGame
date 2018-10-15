@@ -9,7 +9,13 @@ box-sizing: border-box;
     max-width: 1170;
     margin: 0 auto;
     display: flex;
+    flex-direction: column
 }
+.features{
+        width: 100%;
+        display:flex;
+        text-align: center
+    }
  .reload{
         width: 0px;
 }  
