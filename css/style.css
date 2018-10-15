@@ -19,6 +19,9 @@ box-sizing: border-box;
     display: flex;
     flex-direction: column;
 }
+    .features{
+        width: 100%;
+        display:flex
 
 .game{
     border: 2px black solid;
