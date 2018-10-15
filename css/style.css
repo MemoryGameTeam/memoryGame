@@ -22,8 +22,8 @@ box-sizing: border-box;
     .features{
         width: 80%;
         display:flex;
-     margin: 0 auto;
-     text_align:center
+        margin: 0 auto;
+     text-align: center
 }
 .game{
     border: 2px black solid;
