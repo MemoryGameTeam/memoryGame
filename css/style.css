@@ -10,6 +10,9 @@ box-sizing: border-box;
     margin: 0 auto;
     display: flex;
 }
+ .reload{
+        width: 0px;
+}  
 .game{
 
     width: 47%;
