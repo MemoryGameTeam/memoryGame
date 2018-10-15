@@ -26,5 +26,6 @@ margin: 0 auto;
 border: 2px black solid;
 }
 .features{
-    width:100%
+    width:100%;
+    display: block;
 }
