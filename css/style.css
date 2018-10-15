@@ -3,9 +3,14 @@ margin: 0 auto;
 padding:0;
 width: 100%;
 box-sizing: border-box;
-font-family: 'Lobster', cursive;
 }
- 
+
+ body{
+  font-family: 'Roboto Slab', serif;
+  font-weight: lighter;
+  background:#DDD;
+}
+
 
 #container{
     width: 75%;
@@ -15,8 +20,10 @@ font-family: 'Lobster', cursive;
     flex-direction: column;
 }
     .features{
-        width: 100%;
-        display:flex
+        width: 80%;
+        display:flex;
+     margin: 0 auto;
+     text_align:center
 }
 .game{
     border: 2px black solid;
