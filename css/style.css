@@ -20,7 +20,7 @@ box-sizing: border-box;
     flex-direction: column;
 }
     .features{
-        width: 75%;
+        width: 60%;
         display:flex
 }
 .game{
