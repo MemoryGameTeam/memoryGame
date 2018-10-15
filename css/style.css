@@ -7,8 +7,7 @@ box-sizing: border-box;
 
  body{
   font-family: 'Roboto Slab', serif;
-/*   font-weight: lighter; */
-   font-weight: 700;
+  font-weight: lighter;
   background:#DDD;
 }
 
