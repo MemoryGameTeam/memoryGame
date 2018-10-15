@@ -22,7 +22,7 @@ box-sizing: border-box;
     .features{
         width: 75%;
         display:flex
-
+}
 .game{
     border: 2px black solid;
     width: 80%;
