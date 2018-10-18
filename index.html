@@ -8,17 +8,17 @@
     <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 </head>
-<body>
+<body style="background-image:url(../../images/bgTest.jpg);">
     <!-- bage container  -->
    <div id="container">
        <div>
            <h1>MEMORY GAME EXERCIES YOUR MIND</h1>
        </div>
 <div class="header">
-    <button id="counte">clicks:0</button>
-    <button id="reload"><i class="fas fa-redo-alt"></i></button>
-    <button id="score">score:0</button>
-    <button id="timer">time:00</button>
+    <h2 id="counte">clicks:0</h2>
+    <h2 onclick="location.reload()" id="reload"><i class="fas fa-redo-alt"></i></h2>
+    <h2 id="score">score:0</h2>
+    <h2 id="timer">time:00</h2>
 
 
 </div>
@@ -97,6 +97,25 @@
        </div>
 
    </div> 
+   <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="close">&times;</span>
+        <h2>HELLO</h2>
+      </div>
+      <div id="message" class="modal-body">
+        <p id="message"></p>
+       
+      </div>
+      <div class="modal-footer">
+        <h3></h3>
+      </div>
+    </div>
+  
+  </div>
+  
    <script src="js/main.js"></script>
 </body>
 </html>
