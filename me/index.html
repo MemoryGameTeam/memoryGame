@@ -1,0 +1,128 @@
+<!doctype <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Memory Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Chewy"> 
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous"> 
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
+</head>
+<body>
+<div class="overlay">
+    <!-- bage container  -->
+   <div id="container">
+        <div CLASS="game-title">
+            <h1> Memory Game <br> Exercies Your Mind </h1>
+        </div>
+
+        <!-- <div class="features">
+            <ul>
+                <li id="score"><h2>Score <br> 0 </h2></li>
+                <li id="timer"><h2>Timer <br> </h2></li>
+                <li id="counte"><h2>Clicks <br> 30 </h2></li>
+                <li id="reload"><button id="btn" <a href="#"> <i class="fas fa-redo-alt  icone"></i> </a></button></li>
+            </ul>            
+        </div> -->
+
+        <div class="header">
+            <button id="score" class="not-btn" ><h2>Score: 0</h2></button>
+            <button id="counte" class="not-btn" ><h2>Clicks: 30</h2></button>
+            <button id="timer" class="not-btn" ><h2>Time: 00</h2></button>
+            <button id="reload" class="btn" onclick="location.reload()"><i class="fas fa-redo-alt  icone"></i></button>
+        </div>
+
+
+    <!-- main game body----main div contain 4div "rows" every row contain 4div "col" -->
+         <div  class="game" id="game"> 
+            <!-- row1 for game -->
+            <div class="row1">
+                <!-- colums of row1  -->
+                <div class="image"><img class="blocks"  src=""/> 
+                    <span id="overlay" class="overlay" ></span>
+                </div>
+
+                <div class="image"><img class="blocks"  src=""/> 
+                <span id="overlay" class="overlay" ></span>
+                </div>
+
+                <div class="image"><img class="blocks"  src=""/> 
+                <span id="overlay" class="overlay" ></span>
+                </div>
+
+                <div class="image"><img class="blocks"  src=""/> 
+                <span id="overlay" class="overlay" ></span>
+                </div>
+            </div>
+
+              <!-- row2 for game -->
+            <div class="row2">
+                <!-- colums of row1 -->
+                <div class="image"><img class="blocks"   src=""/> 
+                <span id="overlay" class="overlay" ></span>
+                </div>
+
+                <div class="image"><img class="blocks"  src=""/> 
+                <span id="overlay" class="overlay" ></span>
+                </div>
+
+                <div class="image"><img class="blocks"  src=""/> 
+                <span id="overlay" class="overlay" ></span>
+                </div>
+
+                <div class="image"><img class="blocks"  src=""/> 
+                <span id="overlay" class="overlay" ></span>
+                </div>
+            </div>
+
+              <!-- row3 for game -->
+            <div class="row3">
+                <!-- colums of row1 -->
+                <div class="image"><img class="blocks"  src=""/> 
+                <span id="overlay" class="overlay" ></span>
+                </div>
+
+                <div class="image"><img class="blocks"  src=""/> 
+                <span id="overlay" class="overlay" ></span>
+                </div>
+
+                <div class="image"><img class="blocks"  src=""/> 
+                <span id="overlay" class="overlay" ></span>
+                </div>
+
+                <div class="image"><img class="blocks"  src=""/> 
+                <span id="overlay" class="overlay" ></span>
+                </div>
+            </div>
+
+              <!-- row4 for game -->
+            <div class="row4">
+                <!-- colums of row1 -->
+                <div class="image"><img class="blocks"  src=""/> 
+                <span id="overlay" class="overlay" ></span>
+                </div>
+
+                <div class="image"><img class="blocks"  src=""/> 
+                <span id="overlay" class="overlay" ></span>
+                </div>
+
+                <div class="image"><img class="blocks"  src=""/> 
+                <span id="overlay" class="overlay" ></span>
+                </div>
+
+                <div class="image"><img class="blocks"  src=""/> 
+                <span id="overlay" class="overlay" ></span>
+                </div>
+            </div>
+ 
+        </div>
+   </div> 
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>
+
